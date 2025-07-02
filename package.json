@@ -2,7 +2,7 @@
     "name": "mweb3-demo-waves",
     "version": "0.1.0",
     "scripts": {
-        "build": "webpack",
+        "build": "webpack build --output public",
         "watch": "webpack --watch"
     },
     "dependencies": {
