@@ -4,7 +4,7 @@ module.exports = {
     entry: ['./src/main.js'],
     output: {
         filename: 'build.js',
-        path: path.resolve(__dirname, 'public') // Output to 'public' folder
+        path: path.resolve(__dirname, 'dist') // Output to 'dist' folder
     },
     module: {
         rules: [
